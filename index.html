@@ -157,6 +157,7 @@ header{
 .search-caption{font-size:0.78rem;color:var(--olive);margin-top:10px;margin-left:24px;font-style:italic;}
 
 .hero-cta{margin-top:26px;display:flex;flex-wrap:wrap;gap:14px;align-items:center;}
+.hero-cta .btn{white-space:normal;text-align:center;max-width:100%;}
 .hero-trust{margin-top:24px;display:flex;flex-wrap:wrap;gap:18px;font-size:0.84rem;color:var(--graphite);opacity:0.75;font-weight:600;}
 .hero-trust span{display:inline-flex;align-items:center;gap:7px;}
 .hero-trust .icon{width:16px;height:16px;color:var(--pine);}
@@ -404,6 +405,7 @@ details:hover{border-color:rgba(39,84,65,0.28);}
 .price-includes li{display:flex;gap:10px;align-items:flex-start;font-size:0.95rem;color:rgba(255,255,255,0.92);}
 .price-includes .icon{width:18px;height:18px;color:var(--sage-tint);margin-top:2px;flex-shrink:0;}
 .price-card .btn{margin-top:28px;}
+.price-installment{margin-top:7px;font-size:0.92rem;font-weight:600;opacity:0.72;}
 .price-fine{margin-top:16px;font-size:0.78rem;color:rgba(255,255,255,0.55);text-align:center;}
 
 /* ---------- FAQ ---------- */
@@ -571,7 +573,7 @@ footer{background:var(--graphite);color:rgba(236,234,233,0.7);padding:52px 0 28p
     <div class="reveal">
       <span class="eyebrow">Google Visibility Kit · Carus MKT</span>
       <h1>Sua empresa aparece no <span class="pill">Google</span> e no Maps?</h1>
-      <p class="lead">É a primeira coisa que um cliente faz antes de te ligar: pesquisa seu nome. O Google Visibility Kit mostra exatamente o que está faltando no seu Perfil da Empresa, e ensina você a corrigir <span class="underline-accent">sozinho, no seu ritmo</span>, sem contratar uma agência.</p>
+      <p class="lead">É a primeira coisa que um cliente faz antes de te ligar: pesquisa seu nome. O Google Visibility Kit mostra exatamente o que está faltando no seu Perfil da Empresa, e aponta o que precisa ser ajustado, com <span class="underline-accent">passo a passo prático</span>, sem curso, aulas e sem precisar contratar agência.</p>
 
       <div class="search-mock" aria-hidden="true">
         <span>Digite o nome da sua empresa…</span>
@@ -580,7 +582,7 @@ footer{background:var(--graphite);color:rgba(236,234,233,0.7);padding:52px 0 28p
       <p class="search-caption">É basicamente isso que o seu cliente faz. O que ele encontra?</p>
 
       <div class="hero-cta">
-        <a class="btn btn-primary" href="https://pay.kiwify.com.br/dGVt8Mn" target="_blank" rel="noopener">Quero fazer meu diagnóstico</a>
+        <a class="btn btn-primary" href="https://pay.kiwify.com.br/dGVt8Mn" target="_blank" rel="noopener">Quero melhorar o Perfil da minha empresa no Google</a>
       </div>
       <div class="hero-trust">
         <span><svg class="icon" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="3"/><path d="M9 12l2 2 4-4"/></svg>R$ 147 por ano</span>
@@ -768,6 +770,7 @@ footer{background:var(--graphite);color:rgba(236,234,233,0.7);padding:52px 0 28p
         <h3>Google Visibility Kit</h3>
         <p class="desc">Para quem quer entender o próprio perfil, aplicar os ajustes com as próprias mãos e manter tudo em dia, sem depender de terceiros.</p>
         <div class="compare-price"><span class="amount">R$ 147</span><span class="period">/ ano</span></div>
+        <p class="price-installment">ou 12x de R$ 15,20</p>
         <ul class="compare-list">
           <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Diagnóstico, prioridades e guias completos</li>
           <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Você aplica no seu próprio ritmo</li>
@@ -854,6 +857,7 @@ footer{background:var(--graphite);color:rgba(236,234,233,0.7);padding:52px 0 28p
         <span class="price-badge">Google Visibility Kit</span>
         <h3>Acesso anual</h3>
         <div class="price-value"><span class="amount">R$ 147</span><span class="period">/ ano</span></div>
+        <p class="price-installment">ou 12x de R$ 15,20</p>
         <ul class="price-includes">
           <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Acesso individual à plataforma</li>
           <li><svg class="icon" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>Diagnóstico guiado com 30 perguntas</li>
